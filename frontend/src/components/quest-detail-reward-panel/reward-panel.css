@@ -1,0 +1,126 @@
+.quest-detail-reward-panel {
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+}
+
+i.loading svg {
+  animation-name: spin;
+  animation-duration: 500ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes spin {
+
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.quest-detail-reward-panel>div {
+  position: relative;
+  transition: all 0.15s linear 0s;
+  width: 100%;
+}
+
+.reward-info {
+  aspect-ratio: 515/399;
+}
+
+.reward-claim-button {
+  aspect-ratio: 515/215;
+
+  transform: translateY(-30%);
+}
+
+.reward-btn {
+  position: absolute;
+  width: inherit;
+  top: -8px;
+  left: -8px;
+  color: black;
+}
+
+a.reward-btn.activable:active {
+  top: 0px;
+  left: 0px;
+}
+
+a.reward-btn.active {
+  top: 0px;
+  left: 0px;
+
+}
+
+.quest-detail-reward-panel>div>a>div {
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.reward-info>a>div {
+  aspect-ratio: 515/399;
+}
+
+.reward-claim-button>a>div {
+  aspect-ratio: 515/215;
+  display: flex;
+  align-items: flex-end;
+}
+
+.reward-info-title {
+  width: 100%;
+  aspect-ratio: 515/108;
+  border-bottom: 4px solid black;
+
+  font-family: "Lexend Zetta";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  display: flex;
+  align-items: center;
+  color: inherit;
+}
+
+.reward-info-title span {
+  margin-left: 2.5%;
+}
+
+.reward-info-detail {
+  font-family: "Lexend Zetta";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  color: inherit;
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+  aspect-ratio: 515/291;
+}
+
+.reward-info-detail span {
+  margin-top: 10%;
+}
+
+.reward-claim-inner {
+  width: 100%;
+  aspect-ratio: 515/137;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reward-claim-inner span {
+  font-family: "Lexend Zetta";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 47px;
+  color: inherit;
+}

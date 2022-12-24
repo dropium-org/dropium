@@ -1,0 +1,99 @@
+.dropium-btn {
+  position: relative;
+  display: inline-block;
+  z-index: 0;
+  cursor: pointer;
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 100%;
+}
+
+.dropium-btn a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: inherit;
+  color: inherit;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  text-align: center;
+  text-decoration: none;
+  text-transform: inherit;
+  border: none;
+  position: absolute;
+  background-color: inherit;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  outline: inherit;
+
+  transition: all 0.15s linear 0s;
+  z-index: 1;
+}
+
+.dropium-btn:has(.dropium-btn-shadow) a{
+  top: -8px;
+  left: -8px;
+
+}
+
+.dropium-btn:not(:has(.dropium-btn-shadow)) a{
+  top: 0px;
+  left: 0px;
+
+}
+
+.dropium-btn:has(.dropium-btn-shadow).activable:active a {
+  top: 0px;
+  left: 0px;
+}
+
+.dropium-btn:has(.dropium-btn-shadow).hover:hover a {
+  top: 0px;
+  left: 0px;
+}
+
+.dropium-btn i img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+}
+
+.dropium-btn i.start-icon {
+  margin-right: 5px;
+}
+
+.dropium-btn i.end-icon {
+  margin-left: 5px;
+}
+
+.dropium-btn-shadow {
+  position: absolute;
+  display: block;
+  width: inherit;
+  height: inherit;
+  padding: inherit;
+  border-radius: inherit;
+  outline: inherit;
+  background-color: black;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.start-icon{
+  position: absolute;
+  left: 5px;
+}
+
+.end-icon{
+  position: absolute;
+  right: 5px;
+}

@@ -1,0 +1,27 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: 0.2s;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@font-face {
+  font-family: Lexend Zetta;
+  src: url("/public/fonts/LexendZetta-Medium.ttf") format("woff2");
+}
+
+@font-face {
+  font-family: Kanit;
+  src: url("/public/fonts/Kanit-Medium.ttf") format("woff2");
+}
+
+div#root {
+  min-height: 100vh;
+}

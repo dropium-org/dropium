@@ -1,0 +1,115 @@
+.dropium-panel-wrapper {
+  position: relative;
+  color: white;
+  min-height: 2rem;
+  height: auto;
+  /* transition: max-height 0.15s ease; */
+}
+
+.panel-title {
+  border-radius: 999px 999px 0px 999px;
+  outline: 4px solid black;
+  background-color: #ff2f61;
+  width: 100%;
+  height: 2rem;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+
+  position: absolute;
+  top: -8px;
+  z-index: 1;
+  transition: all 0.15s ease-in  0s;
+}
+
+.panel-title:has() .panel-title span {
+  margin: 0 auto;
+}
+
+.panel-title i.start-icon {
+  margin-left: 10px;
+}
+
+.panel-title i.end-icon {
+  margin-right: 10px;
+}
+
+.panel-shadow {
+  background-color: black;
+  display: block;
+  width: 100%;
+  height: 2rem;
+  padding: inherit;
+  border-radius: inherit;
+  outline: inherit;
+  outline: 4px solid black;
+  border-radius: 999px 999px 0px 999px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  background-color: black;
+  transition: none;
+}
+
+.dropium-panel-wrapper:has(.dropdown-content-wrapper) {
+  padding-top: 1rem;
+}
+
+.dropdown-content-wrapper {
+  transition: all 0.15s ease-in  0s;
+  padding-top: 2rem;
+  border-radius: 0px 0px 0px 12px;
+  outline: 4px solid black;
+  width: 100%;
+  height: auto;
+  background-color: white;
+  color: black;
+  top: 0;
+  left: 0;
+  z-index: -1;
+
+  animation-name: example;
+  animation-duration: 1s;
+}
+
+@keyframes example {
+  from {
+    background-color: transparent;
+    border-radius: 0px 0px 0px 24px;
+    padding-top: 0;
+    transform: scaleY(.5) translateY(-50%);
+    z-index: -4;
+  }
+
+  to {
+    transform: scaleY(1) translateY(0);
+    border-radius: 0px 0px 0px 12px;
+    padding-top: 2rem;
+    z-index: -4;
+  }
+}
+
+.dropium-panel-wrapper a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.dropium-panel-wrapper a.active {
+  top: 0px;
+
+}
+
+.dropium-panel-wrapper a:not(.active):active {
+  top: 0px;
+}
+
+.dropdown-content {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}

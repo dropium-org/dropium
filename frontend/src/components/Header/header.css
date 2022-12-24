@@ -1,0 +1,31 @@
+.header-wrapper {
+  box-sizing: border-box;
+  height: 100px;
+  width: 100%;
+  border-bottom: 4px solid #000000;
+
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  width: calc(100% - 20%);
+  display: flex;
+  justify-content: space-between;
+}
+
+header > div {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.header-menu{
+  display: flex;
+  justify-content: center;
+}
+
+.header-button-box{
+  display: flex;
+  justify-content: flex-end;
+}

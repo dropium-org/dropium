@@ -1,0 +1,41 @@
+.create-quest-filter {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+}
+
+.quest-list-section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.quests-categories {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+.quests-categories > div {
+  margin-right: 70px;
+  font-family: "Lexend Zetta";
+  font-style: normal;
+  font-weight: 900;
+  text-align: center;
+  font-size: 27px;
+  line-height: 100%;
+}
+
+.quests-list {
+  margin-top: 30px;
+  border: 4px solid #000000;
+  border-radius: 16px;
+  height: 260px;
+}
+
+.quest-main-content-filter {
+  width: 100%;
+}

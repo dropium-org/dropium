@@ -1,0 +1,100 @@
+.quest-sidebar {
+  border-right: 0.5px solid black;
+  height: 100%;
+  width: 35vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Kanit";
+}
+
+/* Community Area  */
+.style-sidebard-community {
+  width: 100%;
+  background: #ff2f61;
+  height: 120px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+.style-logoBox-community {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  align-content: space-between;
+  border-radius: 8px;
+}
+.style-imgbox-community {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  border: 1px solid white;
+  background-color: white;
+}
+.style-imgbox-community img {
+  border-radius: 8px;
+}
+
+/* Account Detail */
+.sidebar-quests-section {
+  height: 100%;
+  background: black;
+}
+
+.sidebar-quest-section {
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 40px;
+}
+
+.style-sidebar-quest-box {
+  border-radius: 14px;
+  margin: 10px;
+}
+
+.sidebar-quest-section button {
+  width: 90%;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sidebar-quest-section button:hover,
+.sidebar-quest-section button.active {
+  background-color: #ff2f61;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.style-menu-sidebar-logo:hover {
+  display: flex;
+}
+
+/* Footer Area  */
+.sidebar-footer {
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+}
+
+button > div {
+  display: none;
+}
+
+.active div { 
+  display: flex;
+}

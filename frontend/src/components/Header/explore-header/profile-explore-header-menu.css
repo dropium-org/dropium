@@ -1,0 +1,21 @@
+.style-header-menu-explore {
+  height: auto;
+  width: 100%;
+}
+
+.style-header-menu-explore button {
+  background-color: white;
+  border: none;
+  padding: 20px 20px;
+  margin: 0 20px;
+  color: #9d9d9d;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.style-header-menu-explore button:hover,
+.style-header-menu-explore button.active {
+  background-color: black;
+  color: white;
+  border-radius: 16px;
+}

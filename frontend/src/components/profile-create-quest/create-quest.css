@@ -1,0 +1,321 @@
+* {
+  font-family: Lexend Zetta;
+}
+
+.create-quest-content-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding: 20px;
+  margin-left: 80px;
+  width: 70%;
+}
+
+.create-quest-container > div,
+.create-quest-container > nav {
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.quest-main-content {
+  width: 100%;
+}
+
+.create-quest-steps {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.create-quest-steps > div {
+  padding-right: 65px;
+}
+
+.create-quest-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.create-quest-step > div {
+  padding-bottom: 20px;
+}
+
+.create-quest-content {
+  padding-left: 45px;
+}
+
+.quest-section {
+  width: 100%;
+  margin-right: 50px;
+}
+
+.quest-title-box {
+  padding-bottom: 30px;
+}
+
+.quest-title-title {
+  border: 4px solid black;
+  border-bottom: 0;
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+  background: #ff2f61;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.quest-title-box-style {
+  display: flex;
+  flex-direction: row;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  width: 20%;
+  border-radius: 10px 0 0 0;
+}
+
+.quest-title-title::before {
+  display: block;
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  clip-path: inherit;
+  background-color: black;
+  width: 18%;
+  border-radius: 10px 0 0 0;
+  clip-path: polygon(0 0, 78% 0, 100% 100%, 0% 100%);
+  border: 4px solid black;
+}
+
+.quest-title-input {
+  border: 4px solid black;
+  border-radius: 0px 0px 12px 12px;
+  width: 100%;
+  height: 62px;
+  font-size: larger;
+  font-family: Lexend Zetta;
+}
+
+.quest-input {
+  border: 4px solid black;
+  border-radius: 0px 0px 12px 12px;
+  width: 100%;
+  height: 260px;
+  font-size: larger;
+  font-family: Lexend Zetta;
+}
+
+/* Button Create a Quest */
+.style-create-quest {
+  display: flex;
+  justify-content: center;
+}
+.style-create-quest {
+  top: 0;
+  left: 0;
+  border-radius: [object Object]px;
+  transition: all 0.15s linear 0s;
+  position: relative;
+  display: inline-block;
+  padding: 20px 40px;
+  background-color: #ff2f61;
+  text-transform: uppercase;
+  font-family: "Lexend Zetta";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 27px;
+  line-height: 100%;
+  color: #ffffff;
+
+  letter-spacing: 1px;
+  box-shadow: 6px 6px 0 #000000;
+  text-decoration: none;
+  border-radius: 999px 0px 0px 999px;
+  border: 4px solid #000000;
+}
+.style-create-quest::after {
+  transition: all 0.15s linear 0s;
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: -4px;
+  width: 8px;
+  height: 8px;
+  transform: rotate(45deg);
+  z-index: -1;
+}
+.style-create-quest::before {
+  transition: all 0.15s linear 0s;
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  right: 2px;
+  width: 8px;
+  height: 8px;
+  background-color: #000000;
+  transform: rotate(45deg);
+  z-index: -1;
+}
+a.style-create-quest {
+  position: relative;
+}
+a:active.style-create-quest {
+  top: 6px;
+  left: 6px;
+  box-shadow: none;
+}
+a:active.style-create-quest:before {
+  bottom: 1px;
+  right: 1px;
+}
+a:active.style-create-quest:after {
+  top: 1px;
+  left: 1px;
+}
+
+/* Button Create a Quest by Step*/
+.style-button-quest-step {
+  width: 5rem;
+  height: 0.3rem;
+  top: 0;
+  left: 0;
+  transition: all 0.15s linear 0s;
+  position: relative;
+  display: inline-block;
+  padding: 1rem;
+  background-color: #ff2f61;
+  text-transform: uppercase;
+  font-family: "Kanit";
+  color: white;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  border-radius: 999px 999px 999px 999px;
+  letter-spacing: 1px;
+  box-shadow: 6px 6px 0 #000000;
+  text-decoration: none;
+  border: 4px solid #000000;
+}
+.style-button-quest-step::after {
+  transition: all 0.15s linear 0s;
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: -4px;
+  width: 8px;
+  height: 8px;
+  transform: rotate(45deg);
+  z-index: -1;
+}
+.style-button-quest-step::before {
+  transition: all 0.15s linear 0s;
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  right: 2px;
+  width: 8px;
+  height: 8px;
+  transform: rotate(45deg);
+  z-index: -1;
+}
+a.style-button-quest-step {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+a:active.style-button-quest-step {
+  top: 6px;
+  left: 6px;
+  box-shadow: none;
+}
+a:active.style-button-quest-step:before {
+  bottom: 1px;
+  right: 1px;
+}
+a:active.style-button-quest-step:after {
+  top: 1px;
+  left: 1px;
+}
+.create-quest-step {
+  font-family: "Kanit";
+  font-size: x-large;
+  font-weight: bold;
+}
+
+/* Button Save Seting */
+.button-save-container {
+  display: flex;
+  justify-content: center;
+}
+.button-save-setting {
+  margin: 16px;
+  width: 10rem;
+  height: 0.5rem;
+  top: 0;
+  left: 0;
+  transition: all 0.15s linear 0s;
+  position: relative;
+  display: inline-block;
+  padding: 1rem;
+  background-color: #ff2f61;
+  text-transform: uppercase;
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 1px;
+  box-shadow: 6px 6px 0 #000000;
+  text-decoration: none;
+  border: 4px solid #000000;
+  box-shadow: 6px 6px 0 #60ffe2;
+  border-radius: 14px;
+  color: #ffffff;
+  background-color: #ff2f61;
+}
+
+.button-save-setting::after {
+  transition: all 0.15s linear 0s;
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: -4px;
+  width: 8px;
+  height: 8px;
+  transform: rotate(45deg);
+  z-index: -1;
+}
+.button-save-setting::before {
+  transition: all 0.15s linear 0s;
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  right: 2px;
+  width: 8px;
+  height: 8px;
+  transform: rotate(45deg);
+  z-index: -1;
+}
+a.button-save-setting {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+a:active.button-save-setting {
+  top: 6px;
+  left: 6px;
+  box-shadow: none;
+}
+a:active.button-save-setting:before {
+  bottom: 1px;
+  right: 1px;
+}
+a:active.button-save-setting:after {
+  top: 1px;
+  left: 1px;
+}

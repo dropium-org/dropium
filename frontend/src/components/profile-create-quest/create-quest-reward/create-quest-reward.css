@@ -1,0 +1,154 @@
+.quest-title-box-style-input {
+  border: 4px solid black;
+  border-radius: 0px 0px 12px 12px;
+  width: 100%;
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.style-create-reward-method-btt {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.style-create-quest-stt {
+  margin-bottom: 30px;
+}
+
+.style-create-quest-reward-box {
+  margin: 0px 20px;
+  padding: 20px 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.style-reward-box-whitelist {
+  width: 150px;
+  height: 80px;
+  border: 4px solid black;
+  border-radius: 14px;
+  padding: 0 20px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.style-reward-box-token {
+  height: 80px;
+  border: 4px solid black;
+  border-radius: 14px;
+  font-family: "Lexend Zetta";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+/* .style-reward-box-money-detail {
+  width: 200px;
+  height: 20px;
+  border: 4px solid black;
+  border-radius: 14px;
+  margin-right: 50px;
+} */
+
+/* .style-reward-box-token-person {
+  width: 300px;
+  height: 20px;
+  border: 4px solid black;
+  border-radius: 14px;
+} */
+
+.style-reward-box-token-detail {
+  display: flex;
+  margin: 0 30px;
+}
+
+.style-reward-box-token-title {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.style-reward-box-money {
+  border: 4px solid black;
+}
+
+/* .style-reward-box-money-detail :where(.css-dev-only-do-not-override-26rdvq).ant-input-group:where(.css-dev-only-do-not-override-26rdvq).ant-input-group-compact>*:last-child {
+  border: 4px solid black;
+  border-radius: 0 14px 14px 0;
+} */
+
+.style-quest-number-reward {
+  height: 40px;
+  border: 4px solid black;
+  border-radius: 14px;
+  margin: 20px;
+  font-weight: bold;
+}
+
+.quest-title-box-number-reward {
+  border: 4px solid black;
+  border-radius: 0px 0px 12px 12px;
+  width: 100%;
+  height: 80px;
+}
+
+.quest-title-box-network {
+  border: 4px solid black;
+  border-radius: 0px 0px 12px 12px;
+  width: 100%;
+  height: 80px;
+}
+
+.style-quest-network {
+  height: 40px;
+  border: 4px solid black;
+  border-radius: 14px;
+  margin: 20px;
+  font-weight: bold;
+  background-color: #ff2f61;
+  color: white;
+  padding-left: 20px;
+}
+
+.style-reward-box-money-detail
+  :where(.css-dev-only-do-not-override-26rdvq).ant-input-group:where(
+    .css-dev-only-do-not-override-26rdvq
+  ).ant-input-group-compact
+  > *:first-child {
+  font-family: "Lexend Zetta";
+}
+
+.style-reward-box-token-person
+  :where(.css-dev-only-do-not-override-26rdvq).ant-input {
+  font-family: "Lexend Zetta";
+}
+
+/* .style-reward-box-money-detail :where(.css-dev-only-do-not-override-26rdvq).ant-input-group:where(.css-dev-only-do-not-override-26rdvq).ant-input-group-compact>*:last-child{
+  border: 4px solid black;
+} */
+
+.lucky-draws a{
+  /* cursor: not-allowed; */
+}
+
+.textarea-number-reward {
+  height: 50%;
+  width: 95%;
+  margin: 5px 5px;
+  border: none;
+  resize: none;
+  background: transparent;
+}

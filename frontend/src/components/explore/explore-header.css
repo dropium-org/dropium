@@ -1,0 +1,23 @@
+.style_header_container {
+    box-sizing: border-box;
+  
+    /* Auto layout */
+  
+    /* display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px 502px;
+    gap: 1147px;
+  
+    position: absolute;
+    width: 2560px;
+    height: 99px;
+    left: 0px;
+    top: 0px; */
+  
+    /* Neutral/Neutral 0 [night] */
+  
+    background: #ffffff;
+    border-bottom: 4px solid #000000;
+  }
+  
